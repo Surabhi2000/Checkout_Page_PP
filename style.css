@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+
+* {
+    font-family: 'Barlow', sans-serif;
+}
+
+.img-thumbnail {
+    border: none;
+}
+
+.heading {
+    margin-left: 20px;
+}
+
+.orange {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F37920;
+}
+
+.orange1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    color: #F37920;
+}
+
+.orange2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 40px;
+    color: #F37920;
+}
+
+.red {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #B80000;
+}
+
+.box {
+    border: 1px solid #676767;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 40px 30px 60px 30px;
+}
+
+.speak_fluent {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    color: #0A174C;
+}
+
+.grey {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5F5F5F;
+}
+
+.grey-bg {
+    background-color: #E4E4E4;
+    border-radius: 10px;
+    padding: 0 60px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.blue {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    color: #102048;
+}
+
+.side-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    color: #263238;
+}
+
+.side-subtext{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    color: #263238;
+}
+
+.sidetext{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 40px;
+    color: #263238;
+}
+
+.quote {
+    background-image: url(/images/qoute.png);
+    background-repeat: no-repeat;
+    background-size: 5em;
+    margin: 30px 10px 50px 10px;
+}
+
+.quote-p {
+    margin-left: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2B2B2B;
+}
+
+.quote-orange {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F37920;
+    margin-left: 40px;
+}
+
+.st-login {
+    margin-top: -750px;
+}
+
+.box2 {
+    border: 1px solid #676767;
+    box-sizing: border-box;
+    width: 75%;
+    border-radius: 30px;
+    padding: 40px 30px 60px 30px;
+    float: left;
+}
+
+.input-f {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    color: #102048;
+}
+
+.input-field {
+    border: none;
+    border-bottom: 0.5px solid #102048;
+}
+
+.check {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+}
+
+.payment {
+    margin-top: 450px;
+}
+
+.pay {
+    margin: 40px 0 10px 0;
+}
+
+.checkboxs {
+    margin: 300px 350px 20px 50px;
+}
+
+.check-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+}
+
+.grey-check {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #313131;
+    padding: 0 20px;
+}
+
+.orange-check {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F37920;
+}
+
+.btn-orange {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding: 4px 42px;
+    background: #F37920;
+    box-shadow: 8px 8px 8px rgba(255, 147, 67, 0.25);
+    border-radius: 40px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.btn-orange:hover {
+    transform: translateY(10%);
+    background: #f3893e;
+    color: #fff;
+}
+
+@media (max-width: 400px) {
+    .st-login {
+        margin-top: -50px;
+    }
+
+    .box2 {
+        width: 100%;
+    }
+
+    .grey-bg{
+        padding: 0 0px;
+    }
+
+    .checkboxs {
+        margin: 300px 20px 0px 20px;
+    }
+}
